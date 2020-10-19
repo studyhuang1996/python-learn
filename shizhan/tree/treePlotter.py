@@ -1,7 +1,8 @@
+
 '''
 Author: your name
 Date: 2020-10-18 15:23:56
-LastEditTime: 2020-10-19 23:45:03
+LastEditTime: 2020-10-19 23:55:19
 LastEditors: Please set LastEditors
 Description: In User Settings Edit
 FilePath: /python/shizhan/tree/treePlotter.py
@@ -28,6 +29,7 @@ def createPlot():
     plotNode('叶节点',(0.8,0.1),(0.3,0.5),leafNode)
     pyplot.rcParams['font.sans-serif'] = ['Arial Unicode MS'] #解决中文乱码
     pyplot.show()
+
 
 # createPlot()
     
@@ -111,3 +113,7 @@ def createPlotTree(inTree):
 
 
 createPlotTree(mydata)
+
+createPlot()
+    
+
